@@ -109,11 +109,10 @@ fun main(args: Array<String>) {
         println("at index: $item in myArray is ${myArray[item]}")
     }
 
-    println("10 + 20 = ${myFunction(10,20)}")
+    println("10 + 20 = ${myFunction(10, 20)}")
 
 }
 
 fun myFunction(param1: Int, param2: Int): Int {
-
     return param1 + param2
 }
